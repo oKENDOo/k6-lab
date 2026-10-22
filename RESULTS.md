@@ -12,8 +12,8 @@ how the checks showed it = การทดสอบหลาย request พบ�
 ## Part A results 
 | Step | Test type    | Users | Req/s | p(95) | Max | Failed | Checks | 
 | ---- | ------------ | ----- | ----- | ----- | --- | ------ | ------ | 
-| A1   | Smoke        | 1     |0.517957| 6.49s | 6.49s |  0  |  24  | 
-| A2   | Average load | 3     |       |       |     |        |        | 
+| A1   | Smoke        | 1     |0.470014| 390.73ms | 415.55ms |  0.00% |  100.00%  | 
+| A2   | Average load | 3     | 1.26   |   412ms  |  786 ms  |  0.00% |   100.00% | 
 | A3   | Stress       | 5     |       |       |     |        |        | 
 | A4   | Spike        | 5     |       |       |     |        |        | 
 | A5   | Soak         | 2     |       |       |     |        |        | 
