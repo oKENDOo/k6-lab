@@ -12,10 +12,10 @@ how the checks showed it = การทดสอบหลาย request พบ�
 ## Part A results 
 | Step | Test type    | Users | Req/s | p(95) | Max | Failed | Checks | 
 | ---- | ------------ | ----- | ----- | ----- | --- | ------ | ------ | 
-| A1   | Smoke        | 1     |0.470014| 390.73 ms| 415.55 ms|  0.00% |  100.00%  | 
+| A1   | Smoke        | 1     |0.470014|   390 ms |  415 ms  |  0.00% |  100.00%  | 
 | A2   | Average load | 3     | 1.26   |   412 ms |  786 ms  |  0.00% |  100.00%  | 
-| A3   | Stress       | 5     | 2.11   |   387 ms |  529 ms  |  0.00% |  100.0%   | 
-| A4   | Spike        | 5     |       |       |     |        |        | 
+| A3   | Stress       | 5     | 2.11   |   387 ms |  529 ms  |  0.00% |  100.00%  | 
+| A4   | Spike        | 5     |1.021802|   388 ms |  457 ms  |  0.00% |  100.00%  |  
 | A5   | Soak         | 2     |       |       |     |        |        | 
   
 ## Part B 
