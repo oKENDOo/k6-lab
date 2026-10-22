@@ -16,7 +16,7 @@ how the checks showed it = การทดสอบหลาย request พบ�
 | A2   | Average load | 3     | 1.26   |   412 ms |  786 ms  |  0.00% |  100.00%  | 
 | A3   | Stress       | 5     | 2.11   |   387 ms |  529 ms  |  0.00% |  100.00%  | 
 | A4   | Spike        | 5     |1.021802|   388 ms |  457 ms  |  0.00% |  100.00%  |  
-| A5   | Soak         | 2     |       |       |     |        |        | 
+| A5   | Soak         | 2     |0.954508|   400 ms |  1.66 s  |  0.00% |  100.00%  |
   
 ## Part B 
 1. 
