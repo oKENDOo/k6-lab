@@ -3,7 +3,7 @@
 ## Part 0
 - Step 0.1, http_req_duration: avg=267.89ms min=267.89ms med=267.89ms max=267.89ms p(90)=267.89ms p(95)=267.89ms
 - Step 0.2, requests, rate and p(95), and why the rate stays below 5: requests=80 / rate = 3.77501/s and p(95) = 2.06s /The rate stays below 5 เนื่องจากหนึ่งรอบมีเวลารอ response และมี sleep(1) ด้วย จึงทำได้ไม่ถึง 1 request ต่อวินาทีต่อ VU
-- Step 0.6, exit code of the normal run and of the run with P95=300: 
+- Step 0.6, exit code of the normal run and of the run with P95=300:  normal run = 0 / run with P95=300 = 99
 - Step 0.7, rules that passed, p(95), p(99), exit code after your change: 
 - Step 0.8, what was wrong, and how the checks showed it: 
   
