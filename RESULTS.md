@@ -10,6 +10,8 @@
 - Step 0.7, rules that passed, p(95), p(99), exit code after your change: rules that passed=rate>0.99,p(95)<1000,p(99)<1500,rate<0.01 // p(95) = 390.42ms // p(99) = 413.93ms // exit code after your change = 99
 
 - Step 0.8, what was wrong, and how the checks showed it: 
+what was wrong = ปัญหาคือส่งชื่อ `pepperoni` และ `knife` ไม่ตรงกับค่าที่ API ใช้จริง จึงแก้เป็น `Pepperoni` และ `Knife`
+how the checks showed it = การทดสอบหลาย request พบปัญหา เพราะระบบสุ่ม pizza หลายแบบ จึงมีโอกาสเจอ pizza ที่มี Pepperoni หรือใช้ Knife มากขึ้น ส่วนการทดสอบมือครั้งเดียวอาจบังเอิญได้ผลลัพธ์ที่ผ่าน แม้ request จะผิด
   
 ## Part A results 
 | Step | Test type    | Users | Req/s | p(95) | Max | Failed | Checks | 
